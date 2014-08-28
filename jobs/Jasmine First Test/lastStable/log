@@ -1,0 +1,18 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /workspace/jasmine_start
+[jasmine_start] $ /bin/sh -xe /Library/Tomcat/Home/temp/hudson777374961368733298.sh
++ jasmine-node --verbose --junitreport test.spec.js
+
+first test suite[33m - 3 ms[0m
+[32m    2 should equal 2[0m[34m - 2 ms[0m
+[32m    1 should not equal 2[0m[34m - 0 ms[0m
+
+test addition of numbers[33m - 0 ms[0m
+[32m    1 plus 1 should equal 2[0m[34m - 0 ms[0m
+
+Finished in 0.009 seconds
+[32m3 tests, 3 assertions, 0 failures, 0 skipped
+[0m
+
+Recording test results
+Finished: SUCCESS

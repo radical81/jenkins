@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<result>
+  <suites>
+    <suite>
+      <file>/workspace/jasmine_start/reports/TEST-firsttestsuite.xml</file>
+      <name>first test suite</name>
+      <duration>0.002</duration>
+      <timestamp>2014-02-26T17:42:44</timestamp>
+      <cases>
+        <case>
+          <duration>0.002</duration>
+          <className>first test suite</className>
+          <testName>2 should equal 2</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+        <case>
+          <duration>0.0</duration>
+          <className>first test suite</className>
+          <testName>1 should not equal 2</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+    <suite>
+      <file>/workspace/jasmine_start/reports/TEST-testadditionofnumbers.xml</file>
+      <name>test addition of numbers</name>
+      <duration>0.0</duration>
+      <timestamp>2014-02-26T17:42:44</timestamp>
+      <cases>
+        <case>
+          <duration>0.0</duration>
+          <className>test addition of numbers</className>
+          <testName>1 plus 1 should equal 2</testName>
+          <skipped>false</skipped>
+          <failedSince>0</failedSince>
+        </case>
+      </cases>
+    </suite>
+  </suites>
+  <duration>0.002</duration>
+  <keepLongStdio>false</keepLongStdio>
+</result>

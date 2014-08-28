@@ -1,0 +1,36 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /workspace/Web/calculator
+Fetching changes from the remote Git repository
+Fetching upstream changes from https://github.com/radical81/calculator.git
+Checking out Revision 8be9c5ef7c86da90326efeddd8eb8fbc3b341508 (origin/master)
+First time build. Skipping changelog.
+[calculator] $ /bin/sh -xe /Library/Tomcat/Home/temp/hudson5744429620950314526.sh
++ whoami
+rjalobba
++ git config --get user.email
+ralobba@gmail.com
++ phpunit --coverage-clover ./report/coverage.xml tests/CalculatorTest.php
+PHPUnit 3.6.10 by Sebastian Bergmann.
+
+..........
+
+Time: 1 second, Memory: 3.75Mb
+
+OK (10 tests, 10 assertions)
+
+Writing code coverage data to XML file, this may take a moment.
++ phpunit --coverage-html report/ tests/CalculatorTest.php
+PHPUnit 3.6.10 by Sebastian Bergmann.
+
+..........
+
+Time: 1 second, Memory: 3.75Mb
+
+OK (10 tests, 10 assertions)
+
+Generating code coverage report, this may take a moment.
+Publishing Clover coverage report...
+Publishing Clover HTML report...
+Publishing Clover XML report...
+Publishing Clover coverage results...
+Finished: SUCCESS

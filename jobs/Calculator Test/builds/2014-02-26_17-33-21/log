@@ -1,0 +1,24 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /workspace/Web/calculator
+[calculator] $ /bin/sh -xe /Library/Tomcat/Home/temp/hudson2588748432737618369.sh
++ phpunit --coverage-clover ./report/coverage.xml tests/CalculatorTest.php
+PHPUnit 3.6.10 by Sebastian Bergmann.
+
+..........
+
+Time: 6 seconds, Memory: 3.75Mb
+
+OK (10 tests, 10 assertions)
+
+Writing code coverage data to XML file, this may take a moment.
++ phpunit --coverage-html report/ tests/CalculatorTest.php
+PHPUnit 3.6.10 by Sebastian Bergmann.
+
+..........
+
+Time: 0 seconds, Memory: 3.75Mb
+
+OK (10 tests, 10 assertions)
+
+Generating code coverage report, this may take a moment.
+Finished: SUCCESS
